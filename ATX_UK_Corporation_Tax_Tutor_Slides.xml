@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deck title="ATX-UK Corporation Tax Crash Course" tone="supportive tutor" audience="ACCA ATX-UK student" duration="45-50 minutes">
+
+  <theme>
+    <style>Clean tutor-led slides, dark navy background, white text, amber highlights, simple diagrams.</style>
+    <font>Arial</font>
+    <accentColour>#F5B041</accentColour>
+  </theme>
+
+  <slide number="1" layout="title">
+    <title>ATX-UK Corporation Tax Crash Course</title>
+    <subtitle>Pass-focused revision: understand the map, then practise tomorrow</subtitle>
+    <speakerNotes><![CDATA[
+Okay, today we are not chasing perfection. We are building the corporation tax map in your head so that tomorrow, when you start questions, you recognise the triggers quickly.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="2" layout="roadmap">
+    <title>What we are covering</title>
+    <bullets>
+      <bullet>Corporation tax computation</bullet>
+      <bullet>Rates, augmented profits and associated companies</bullet>
+      <bullet>Company loss reliefs</bullet>
+      <bullet>Group relief and planning</bullet>
+      <bullet>Capital gains groups, SSE and degrouping</bullet>
+      <bullet>Overseas, R&amp;D, patent box, QIPs and anti-avoidance</bullet>
+    </bullets>
+    <speakerNotes><![CDATA[
+This is the full corporation tax picture. Do not try to memorise it as isolated rules. Think of it as a sequence: compute profits, identify rates, find losses, check groups, then look for special reliefs.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="3" layout="process">
+    <title>The CT machine</title>
+    <steps>
+      <step>Trading income</step>
+      <step>Property income</step>
+      <step>Chargeable gains</step>
+      <step>Non-trading loan relationship income</step>
+      <step>Overseas and miscellaneous income</step>
+      <step>Less qualifying charitable donations</step>
+      <step>Taxable total profits</step>
+    </steps>
+    <speakerNotes><![CDATA[
+Start with the computation. Bring together all taxable sources, then deduct qualifying charitable donations. The result is taxable total profits. This is the amount on which corporation tax is charged.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="4" layout="contrast">
+    <title>TTP vs augmented profits</title>
+    <left>
+      <heading>Taxable total profits</heading>
+      <point>What is actually taxed</point>
+    </left>
+    <right>
+      <heading>Augmented profits</heading>
+      <point>Used to decide the CT rate and QIP position</point>
+    </right>
+    <examTip>Dividends may be exempt from TTP but still relevant to augmented profits.</examTip>
+    <speakerNotes><![CDATA[
+This distinction is vital. Taxable total profits tell us what is taxed. Augmented profits help decide which rate applies. So, if you see dividends, pause. Do not just tax them. Ask whether they affect augmented profits.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="5" layout="rates">
+    <title>Corporation tax rates</title>
+    <bullets>
+      <bullet>At or below lower limit: 19%</bullet>
+      <bullet>Between limits: 25% less marginal relief</bullet>
+      <bullet>Above upper limit: 25%</bullet>
+      <bullet>Planning shortcut: marginal band effectively saves 26.5%</bullet>
+    </bullets>
+    <warning>Do not apply 26.5% to the whole profit.</warning>
+    <speakerNotes><![CDATA[
+The 26.5% figure is a planning shortcut. It tells us the value of reducing profits in the marginal band. It is not the normal way to calculate the whole corporation tax liability.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="6" layout="trigger">
+    <title>Associated companies</title>
+    <trigger>Company structure given = check associated companies</trigger>
+    <bullets>
+      <bullet>Limits are divided by associated companies</bullet>
+      <bullet>Short accounting periods also reduce limits</bullet>
+      <bullet>Associated companies affect CT rates and QIPs</bullet>
+    </bullets>
+    <speakerNotes><![CDATA[
+When the exam gives you a group structure, it is rarely decoration. Associated companies can reduce the limits, which can push a company into marginal relief or quarterly instalments.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="7" layout="table">
+    <title>Loss relief overview</title>
+    <table>
+      <row><cell>Trading loss</cell><cell>Current total profits, 12-month carry back, carry forward</cell></row>
+      <row><cell>Terminal loss</cell><cell>Current total profits, 36-month carry back LIFO</cell></row>
+      <row><cell>Property loss</cell><cell>Current and future total profits</cell></row>
+      <row><cell>Capital loss</cell><cell>Capital gains only</cell></row>
+      <row><cell>NTLR deficit</cell><cell>Current total profits, prior NTLR profits, future profits</cell></row>
+    </table>
+    <speakerNotes><![CDATA[
+The first question with any loss is: what type of loss is it? Trading losses, capital losses and loan relationship deficits do not all go to the same place.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="8" layout="focus">
+    <title>Trading losses</title>
+    <bullets>
+      <bullet>Current period total profits</bullet>
+      <bullet>Carry back to previous 12 months</bullet>
+      <bullet>Carry forward against future profits</bullet>
+    </bullets>
+    <examTip>Think tax saving plus timing.</examTip>
+    <speakerNotes><![CDATA[
+Do not automatically carry back. If last year saves tax at 19% but future profits may save 26.5%, future relief may be better. But carry back may give cash earlier. ATX is about advice, not just rules.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="9" layout="focus">
+    <title>Terminal losses</title>
+    <bullets>
+      <bullet>Triggered by cessation of trade</bullet>
+      <bullet>Loss of final 12 months</bullet>
+      <bullet>Carry back 36 months</bullet>
+      <bullet>Use latest period first</bullet>
+    </bullets>
+    <memory>Normal loss = 12 months. Terminal loss = 36 months.</memory>
+    <speakerNotes><![CDATA[
+If a company stops trading, your brain should immediately say terminal loss. The key number is 36 months, and the order is latest period first.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="10" layout="three-boxes">
+    <title>Three losses students mix up</title>
+    <box title="Capital loss">Capital gains only</box>
+    <box title="NTLR deficit">Carry back only against prior NTLR profits</box>
+    <box title="Trading loss">Total profits route</box>
+    <speakerNotes><![CDATA[
+This slide is important. Capital losses stay in the capital gains box. NTLR deficits have their own carry-back restriction. Trading losses are broader. Keep these separate.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="11" layout="warning">
+    <title>Large loss restrictions</title>
+    <bullets>
+      <bullet>Brought-forward losses may be restricted where profits are very large</bullet>
+      <bullet>£5 million deduction allowance awareness</bullet>
+      <bullet>Major ownership change plus major trade change can restrict losses</bullet>
+    </bullets>
+    <speakerNotes><![CDATA[
+For tonight, this is awareness level. If you see very large brought-forward losses or a company being bought with losses, ask whether restrictions could apply.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="12" layout="group">
+    <title>Group relief</title>
+    <bullets>
+      <bullet>Requires a qualifying 75% group relationship</bullet>
+      <bullet>Loss company = surrendering company</bullet>
+      <bullet>Profit company = claimant company</bullet>
+      <bullet>Capital losses are not ordinary group relief</bullet>
+    </bullets>
+    <speakerNotes><![CDATA[
+Group relief allows losses to move around the group. But be careful: capital losses are not surrendered as ordinary group relief. They belong to the capital gains group rules.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="13" layout="priority">
+    <title>Group loss planning order</title>
+    <bigText>26.5% → 25% → 19%</bigText>
+    <bullets>
+      <bullet>Use losses where they save most tax</bullet>
+      <bullet>Marginal band first</bullet>
+      <bullet>Main rate second</bullet>
+      <bullet>Small profits rate last</bullet>
+    </bullets>
+    <speakerNotes><![CDATA[
+This is one of the most important memory chains. If a group has limited losses, use them first where they save 26.5%, then 25%, then 19%.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="14" layout="cashflow">
+    <title>Group relief is not only tax rate</title>
+    <bullets>
+      <bullet>Consider cash flow</bullet>
+      <bullet>Losses may reduce quarterly instalment payments</bullet>
+      <bullet>Earlier tax relief may be preferable</bullet>
+      <bullet>Do not waste double taxation relief</bullet>
+    </bullets>
+    <speakerNotes><![CDATA[
+A perfect ATX answer considers tax saving and timing. Sometimes a group surrender may be useful because it reduces quarterly payments, not just because it saves more tax overall.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="15" layout="timing">
+    <title>Corresponding periods</title>
+    <trigger>Company joins or leaves group mid-year</trigger>
+    <bullets>
+      <bullet>Only overlapping group period counts</bullet>
+      <bullet>Watch acquisition and disposal dates</bullet>
+      <bullet>Different year ends may need time apportionment</bullet>
+    </bullets>
+    <speakerNotes><![CDATA[
+If companies were only in the same group for part of the period, do not surrender the full year automatically. Think corresponding accounting period.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="16" layout="concept">
+    <title>Consortium relief</title>
+    <bullets>
+      <bullet>Several companies jointly own another company</bullet>
+      <bullet>20 or fewer companies together own at least 75%</bullet>
+      <bullet>Each member generally owns at least 5%</bullet>
+      <bullet>Relief linked to ownership percentage</bullet>
+    </bullets>
+    <speakerNotes><![CDATA[
+Consortium relief is a trigger topic. If no one company has a 75% group, but several companies together do, think consortium.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="17" layout="concept">
+    <title>Capital gains groups</title>
+    <bullets>
+      <bullet>Separate from ordinary group relief</bullet>
+      <bullet>Concerned with assets, gains and capital losses</bullet>
+      <bullet>Allows no gain/no loss transfers</bullet>
+      <bullet>Can support rollover relief and gain/loss elections</bullet>
+    </bullets>
+    <speakerNotes><![CDATA[
+Now switch mental boxes. Group relief is about surrendering losses. Capital gains groups are about assets, gains and capital losses.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="18" layout="flow">
+    <title>No gain / no loss transfers</title>
+    <flow>
+      <item>Group company A owns asset</item>
+      <item>Transfers asset to group company B</item>
+      <item>No immediate taxable gain</item>
+      <item>Gain is deferred, not destroyed</item>
+    </flow>
+    <speakerNotes><![CDATA[
+Intra-group asset transfers are normally tax neutral for capital gains groups. But remember: the gain has not disappeared. It may come back later through a degrouping charge.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="19" layout="focus">
+    <title>Rollover relief in groups</title>
+    <bullets>
+      <bullet>One group company sells qualifying business asset</bullet>
+      <bullet>Another group company buys replacement qualifying asset</bullet>
+      <bullet>Group may be treated together</bullet>
+      <bullet>Relief defers the gain</bullet>
+    </bullets>
+    <memory>SSE exempts. Rollover defers. No gain/no loss defers.</memory>
+    <speakerNotes><![CDATA[
+Keep the words clear. Exemption removes tax. Deferral delays tax. Rollover relief is a deferral.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="20" layout="warning">
+    <title>Degrouping charge</title>
+    <trigger>Company leaves group while still holding an asset received tax-free</trigger>
+    <bullets>
+      <bullet>Look back for intra-group asset transfers</bullet>
+      <bullet>Six-year window is key</bullet>
+      <bullet>Old deferred gain may become chargeable</bullet>
+    </bullets>
+    <speakerNotes><![CDATA[
+If a company is sold out of the group, scan the question for an earlier asset transfer. If it received an asset tax-free and still owns it, think degrouping charge.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="21" layout="focus">
+    <title>Substantial Shareholding Exemption</title>
+    <trigger>Company sells shares in another company</trigger>
+    <bullets>
+      <bullet>Think SSE immediately</bullet>
+      <bullet>Broadly 10% holding</bullet>
+      <bullet>12 months within the relevant six-year period</bullet>
+      <bullet>Trading conditions must be considered</bullet>
+    </bullets>
+    <warning>Do not use BADR for a company.</warning>
+    <speakerNotes><![CDATA[
+The examiner has warned candidates about missing SSE. Whenever a company sells shares in another company, SSE should be your first thought.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="22" layout="chain">
+    <title>SSE + degrouping chain</title>
+    <steps>
+      <step>Company sells shares in subsidiary</step>
+      <step>Check SSE</step>
+      <step>Subsidiary leaves group</step>
+      <step>Check previous intra-group asset transfer</step>
+      <step>Possible degrouping charge</step>
+      <step>SSE may also exempt the degrouping element</step>
+    </steps>
+    <speakerNotes><![CDATA[
+This chain is exam gold. Do not stop after saying SSE applies. If the company being sold leaves the group, ask whether a degrouping charge also arises.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="23" layout="quick">
+    <title>Other gains points</title>
+    <bullets>
+      <bullet>Indexation allowance frozen at 31 December 2017</bullet>
+      <bullet>Indexation cannot create or increase a loss</bullet>
+      <bullet>Companies do not get the individual annual exempt amount</bullet>
+    </bullets>
+    <speakerNotes><![CDATA[
+This is lower priority than SSE and degrouping, but remember that companies are not individuals. Do not use individual CGT rules blindly.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="24" layout="overseas">
+    <title>Overseas operations</title>
+    <bullets>
+      <bullet>UK-resident company: generally worldwide profits</bullet>
+      <bullet>Foreign tax may create double taxation</bullet>
+      <bullet>DTR broadly restricted to UK tax on overseas profits</bullet>
+      <bullet>Do not waste DTR with poor loss planning</bullet>
+    </bullets>
+    <speakerNotes><![CDATA[
+When foreign tax is paid, think double taxation relief. And if losses are available, ask whether using them against overseas profits would waste relief.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="25" layout="comparison">
+    <title>Branch vs subsidiary</title>
+    <left>
+      <heading>Branch</heading>
+      <point>Useful where early losses may help UK company</point>
+    </left>
+    <right>
+      <heading>Subsidiary</heading>
+      <point>Often attractive once overseas business is profitable</point>
+    </right>
+    <speakerNotes><![CDATA[
+This is a classic ATX advisory point. Branches can be attractive in early loss-making years. Subsidiaries may become attractive later once profits arise.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="26" layout="antiavoidance">
+    <title>CFC rules</title>
+    <trigger>Non-UK company controlled from the UK</trigger>
+    <bullets>
+      <bullet>Anti-avoidance regime</bullet>
+      <bullet>Targets artificially diverted profits</bullet>
+      <bullet>Check whether exemptions apply</bullet>
+    </bullets>
+    <speakerNotes><![CDATA[
+Do not overcomplicate CFCs today. Recognise the trigger: non-UK company, UK control, potential low-tax diverted profits.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="27" layout="taxCredit">
+    <title>R&amp;D: RDEC</title>
+    <bullets>
+      <bullet>Identify qualifying R&amp;D expenditure</bullet>
+      <bullet>Credit = 20%</bullet>
+      <bullet>Credit is taxable income</bullet>
+      <bullet>Then deducted from CT liability</bullet>
+    </bullets>
+    <memory>20% in, 20% off.</memory>
+    <speakerNotes><![CDATA[
+The simple memory phrase is 20% in, 20% off. Add the RDEC to taxable income, then deduct it from the corporation tax liability.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="28" layout="incentives">
+    <title>Patent box and full expensing</title>
+    <bullets>
+      <bullet>Patent box: qualifying patent profits taxed effectively at 10%</bullet>
+      <bullet>Full expensing: 100% for qualifying new main-rate plant</bullet>
+      <bullet>50% first-year allowance for qualifying new special-rate plant</bullet>
+      <bullet>Cars and second-hand assets do not qualify for full expensing</bullet>
+    </bullets>
+    <speakerNotes><![CDATA[
+R&D rewards innovation spending. Patent box rewards qualifying patent profits. Full expensing accelerates tax relief for qualifying plant and machinery.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="29" layout="payment">
+    <title>Corporation tax payments</title>
+    <bullets>
+      <bullet>Normal payment: nine months and one day after period end</bullet>
+      <bullet>Return due: 12 months after period end</bullet>
+      <bullet>Large companies may pay quarterly instalments</bullet>
+      <bullet>QIP threshold is affected by associated companies and augmented profits</bullet>
+    </bullets>
+    <speakerNotes><![CDATA[
+Do not only calculate tax. Think about when it is paid. Group relief may improve cash flow if it reduces quarterly instalments.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="30" layout="antiavoidance">
+    <title>Other company-specific traps</title>
+    <bullets>
+      <bullet>Transfer pricing: connected companies must use arm's length prices</bullet>
+      <bullet>Close company loans: possible s455 charge</bullet>
+      <bullet>Close investment-holding companies: main rate only</bullet>
+      <bullet>Personal service companies: employment disguised through a company</bullet>
+    </bullets>
+    <speakerNotes><![CDATA[
+These are trigger topics. You do not need to master every detail tonight, but you must recognise when the scenario is pointing you towards anti-avoidance.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="31" layout="masterMap">
+    <title>The CT exam method</title>
+    <steps>
+      <step>Compute taxable total profits</step>
+      <step>Check dividends and augmented profits</step>
+      <step>Adjust limits for associated companies and short periods</step>
+      <step>Identify loss type and relief route</step>
+      <step>Check group relief planning</step>
+      <step>Check gains group, SSE and degrouping</step>
+      <step>Consider overseas, R&amp;D, patent box and QIPs</step>
+      <step>Explain the advice clearly</step>
+    </steps>
+    <speakerNotes><![CDATA[
+This is the answer approach. If you follow this order, you reduce the risk of missing major marks.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="32" layout="recall">
+    <title>Final recall triggers</title>
+    <bullets>
+      <bullet>Trading loss: current, 12 back, forward</bullet>
+      <bullet>Terminal loss: 36 months LIFO</bullet>
+      <bullet>Capital loss: gains only</bullet>
+      <bullet>Group planning: 26.5, 25, 19</bullet>
+      <bullet>Company sells shares: SSE</bullet>
+      <bullet>Company leaves group: degrouping</bullet>
+      <bullet>Foreign tax: DTR</bullet>
+      <bullet>R&amp;D: 20% in, 20% off</bullet>
+      <bullet>High augmented profits: QIPs</bullet>
+    </bullets>
+    <speakerNotes><![CDATA[
+This is your final memory list. If you can recall these triggers without notes, you are ready to start question practice tomorrow.
+]]></speakerNotes>
+  </slide>
+
+  <slide number="33" layout="closing">
+    <title>Tonight’s target</title>
+    <bigText>Recognition first. Perfection later.</bigText>
+    <speakerNotes><![CDATA[
+Do not panic if you cannot recall every exception. For tonight, your win is recognising the main corporation tax triggers. Tomorrow, question practice will turn this into exam technique.
+]]></speakerNotes>
+  </slide>
+
+</deck>
